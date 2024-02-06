@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            margin: 0 auto;
+            width: 1510px;
+            display: flex;
+            flex-flow: row;
+            padding: 20px;
+            height: auto;
+            margin: 10px auto;
+            background: #fff;
+            background-color: rgba(255, 255, 255, 0.9);
+            -moz-border-radius: 10px;
+            border-radius: 10px;
+        }
+
+        .left {
+            order: 1;
+            flex: 0 1 auto;
+        }
+
+        .mid {
+            order: 3;
+            flex: 0 1 auto;
+        }
+
+        .right {
+            order: 2;
+            flex: 0 1 auto;
+        }
+
+        /*box-item的样式 */
+        .box-item {
+            border: 1px solid #ddd;
+            padding: 0 10px 15px;
+            margin: 15px;
+            text-align: center;
+        }
+
+        .box-item p {
+            line-height: 1.8rem;
+            font-size: 1.5rem;
+            padding: 10px;
+            text-align: center;
+            color: red;
+        }
+
+        .box-item img {
+            box-shadow: 3px 4px 5px #ccc;
+        }
+
+        .box-item img:hover {
+            opacity: 0.5;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="box-item">
+                <img src="images/jie.jpg" alt="">
+                <p>2013年全球总决赛冠军</p>
+            </div>
+        </div>
+        <div class="mid">
+            <div class="box-item">
+                <img src="images/ruizi.jpg" alt="">
+                <p>2015年全球总决赛冠军</p>
+            </div>
+        </div>
+        <div class="right">
+            <div class="box-item">
+                <img src="images/xindela.jpg" alt="">
+                <p>2016年全球总决赛冠军</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

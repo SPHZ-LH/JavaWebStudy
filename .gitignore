@@ -12,6 +12,7 @@ javaweb-01-maven/.idea/
 tmp/
 bin/
 /workspace.xml
+.ida/
 # 数据源本地存储已忽略文件
 /../../../../:\javaProject\javaIdeaProjects\.idea/dataSources/
 /dataSources.local.xml

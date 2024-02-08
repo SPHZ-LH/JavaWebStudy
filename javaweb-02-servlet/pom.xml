@@ -2,10 +2,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.sphz</groupId>
-    <artifactId>javaweb-01-maven</artifactId>
-    <packaging>war</packaging>
+    <artifactId>javaweb-02-servlet</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>servlet-01</module>
+        <module>servlet-02</module>
+    </modules>
     <version>1.0-SNAPSHOT</version>
-    <name>javaweb-01-maven Maven Webapp</name>
+    <name>javaweb-02-servlet Maven Webapp</name>
     <url>http://maven.apache.org</url>
     <dependencies>
         <dependency>
@@ -17,7 +21,7 @@
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
-            <version>3.1.0</version>
+            <version>4.0.1</version>
         </dependency>
     </dependencies>
     <properties>
@@ -25,6 +29,6 @@
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
     <build>
-        <finalName>javaweb-01-maven</finalName>
+        <finalName>javaweb-02-servlet</finalName>
     </build>
 </project>

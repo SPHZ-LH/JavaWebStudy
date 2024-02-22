@@ -5,12 +5,13 @@
                       http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0"
          metadata-complete="true">
-  <servlet>
-    <servlet-name>Hello Servlet</servlet-name>
-    <servlet-class>com.sphz.servlet.HelloServlet</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>Hello Servlet</servlet-name>
-    <url-pattern>/hello</url-pattern>
-  </servlet-mapping>
+
+    <servlet>
+        <servlet-name>filedown</servlet-name>
+        <servlet-class>com.sphz.servlet.FileServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>filedown</servlet-name>
+        <url-pattern>/down</url-pattern>
+    </servlet-mapping>
 </web-app>

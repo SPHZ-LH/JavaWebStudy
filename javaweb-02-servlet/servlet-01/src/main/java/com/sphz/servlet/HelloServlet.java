@@ -1,4 +1,4 @@
-package com.sphz;
+package com.sphz.servlet;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;

@@ -22,7 +22,6 @@ public class FileServlet extends HttpServlet {
         while ((len = fis.read(bytes)) > 0) {
             ops.write(bytes, 0, len);
         }
-
         fis.close();
         ops.close();
     }

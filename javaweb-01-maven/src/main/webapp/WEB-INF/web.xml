@@ -9,10 +9,17 @@
         <servlet-name>helloServlet</servlet-name>
         <servlet-class>com.sphz.Servlet.HelloServlet</servlet-class>
     </servlet>
-    
     <servlet-mapping>
         <servlet-name>helloServlet</servlet-name>
-        <url-pattern>/sphz</url-pattern>
+        <url-pattern>/hello</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>Error</servlet-name>
+        <servlet-class>com.sphz.Servlet.ErrorServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Error</servlet-name>
+        <url-pattern>/*</url-pattern>
+    </servlet-mapping>
 </web-app>

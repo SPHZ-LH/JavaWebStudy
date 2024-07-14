@@ -14,4 +14,22 @@
         <servlet-name>filedown</servlet-name>
         <url-pattern>/down</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>redirect</servlet-name>
+        <servlet-class>com.sphz.servlet.RedirectServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>redirect</servlet-name>
+        <url-pattern>/red</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>request</servlet-name>
+        <servlet-class>com.sphz.servlet.RequestTest</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>request</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
 </web-app>

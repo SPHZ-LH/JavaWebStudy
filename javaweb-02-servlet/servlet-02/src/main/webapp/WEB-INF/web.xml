@@ -25,7 +25,7 @@
         <servlet-name>getc</servlet-name>
         <url-pattern>/getc</url-pattern>
     </servlet-mapping>
-    
+
     <servlet>
         <servlet-name>sd03</servlet-name>
         <servlet-class>com.sphz.servlet.ServletDemo03</servlet-class>

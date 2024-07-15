@@ -7,7 +7,7 @@
          metadata-complete="true">
   <servlet>
     <servlet-name>Hello Servlet</servlet-name>
-    <servlet-class>com.sphz.servlet.HelloServlet</servlet-class>
+    <servlet-class>com.sphz.servlet.LoginServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>Hello Servlet</servlet-name>

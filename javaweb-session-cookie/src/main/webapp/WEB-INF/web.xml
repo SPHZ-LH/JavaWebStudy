@@ -22,4 +22,35 @@ http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
         <servlet-name>c2</servlet-name>
         <url-pattern>/c2</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>s1</servlet-name>
+        <servlet-class>com.sphz.servlet.SessionDemo01</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>s1</servlet-name>
+        <url-pattern>/s1</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>s2</servlet-name>
+        <servlet-class>com.sphz.servlet.SessionDemo02</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>s2</servlet-name>
+        <url-pattern>/s2</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>s3</servlet-name>
+        <servlet-class>com.sphz.servlet.SessionDemo03</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>s3</servlet-name>
+        <url-pattern>/s3</url-pattern>
+    </servlet-mapping>
+
+    <!--设置session默认的失效时间-->
+    <session-config>
+        <!--1分钟自动失效，分钟为单位-->
+        <session-timeout>1</session-timeout>
+    </session-config>
 </web-app>

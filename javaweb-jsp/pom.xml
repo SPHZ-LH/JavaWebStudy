@@ -8,26 +8,22 @@
     <name>javaweb-jsp Maven Webapp</name>
     <url>http://maven.apache.org</url>
     <dependencies>
-        <!--JSP依赖-->
         <dependency>
             <groupId>javax.servlet.jsp</groupId>
             <artifactId>jsp-api</artifactId>
             <version>2.2</version>
         </dependency>
-        <!--Servlet依赖-->
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
             <version>4.0.1</version>
         </dependency>
-        <!--JSTL表达式的依赖-->
         <dependency>
             <groupId>javax.servlet.jsp.jstl</groupId>
             <artifactId>jstl-api</artifactId>
             <version>1.2</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/taglibs/standard -->
-        <!--standard标签库的依赖-->
         <dependency>
             <groupId>taglibs</groupId>
             <artifactId>standard</artifactId>

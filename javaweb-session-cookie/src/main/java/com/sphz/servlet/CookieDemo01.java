@@ -35,6 +35,8 @@ public class CookieDemo01 extends HttpServlet {
             out.write("第一次访问");
         }
 
+        System.out.println(cookies.length);
+
         //创建一个cookie，并且响应添加cookie
         resp.addCookie(new Cookie("lastLoginTime", String.valueOf(System.currentTimeMillis())));
     }

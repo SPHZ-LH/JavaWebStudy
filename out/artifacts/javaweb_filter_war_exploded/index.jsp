@@ -4,6 +4,7 @@
     <title>Title</title>
 </head>
 <body>
-<h1>Hello World!</h1>
+<h1>当前在线人数为：<%=this.getServletConfig().getServletContext().getAttribute("OnlineCount") %>
+</h1>
 </body>
 </html>

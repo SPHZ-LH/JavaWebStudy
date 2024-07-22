@@ -4,7 +4,10 @@
     <title>Title</title>
 </head>
 <body>
-<h1>当前在线人数为：<%=this.getServletConfig().getServletContext().getAttribute("OnlineCount") %>
-</h1>
+<h1>登入</h1>
+<form action="/servlet/login" method="post">
+    <input type="text" name="UserName">
+    <input type="submit">
+</form>
 </body>
 </html>

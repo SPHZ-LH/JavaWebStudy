@@ -4,7 +4,7 @@
     <title>Title</title>
 </head>
 <body>
-<h1>当前在线人数为：<%=this.getServletConfig().getServletContext().getAttribute("OnlineCount") %>
-</h1>
+<h1>登入成功</h1>
+<p><a href="/servlet/logout">注销</a></p>
 </body>
 </html>
